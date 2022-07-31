@@ -20,19 +20,20 @@
   }
 }
 
-@media (min-width: 991px) {
-  .card [class*="card-header-"] .card-icon, .card [class*="card-header-"] .card-text {
+@media (min-width: 992px) and (max-width: 1650px) {
+  .card-icon {
     width: 90px;
-    float: unset;
-   }
- 
- .card-category{
-  text-align: left;
- }
+    float: unset !important;
+  }
+
+  .card-category,
+  .card-title {
+    text-align: left !important;
+  }
 }
 
 .btn-section {
-    width: unset !important; 
+  width: unset !important;
 }
 
 .card {
