@@ -13,24 +13,6 @@
 
  */
 /*     brand Colors              */
-@media (max-width: 991px) {
-  .dd {
-    position: absolute !important;
-    right: 0px;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1650px) {
-  .card-icon {
-    width: 90px;
-    float: unset !important;
-  }
-
-  .card-category,
-  .card-title {
-    text-align: left !important;
-  }
-}
 
 .btn-section {
   width: unset !important;
@@ -13853,7 +13835,7 @@ fieldset[disabled] .form-group .form-control {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .navbar.navbar-absolute {
     position: fixed;
     width: 100%;
@@ -15631,10 +15613,25 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
   min-height: calc(100vh - 123px);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
 
   .main-panel>.content {
     margin-top: 130px !important;
+  }
+
+  #navbarDropdownProfile {
+    padding: 0px 15px !important;
+    text-align: right;
+  }
+
+  .shopsts {
+    font-size: 13px !important;
+    margin-left: 10px !important;
+  }
+
+  .form-check,
+  label {
+    color: #FFF !important;
   }
 
 }
@@ -18919,7 +18916,7 @@ Copyright (c) 2015 Daniel Eden
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
   .presentation-page .section-components .components-macbook {
     max-width: 350px !important;
     max-height: 250px !important;
@@ -19815,6 +19812,39 @@ Copyright (c) 2015 Daniel Eden
   .nav-mobile-menu,
   .sidebar .navbar-form {
     display: none !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .dd {
+    position: absolute !important;
+    right: 0px;
+  }
+
+  .navbar-brand {
+    color: #FFF !important;
+  }
+
+  .navbar {
+    border: 0;
+    border-radius: 3px;
+    padding: 0.625rem 0;
+    margin-bottom: 20px;
+    height: auto !important;
+    background-color: #3e98d3 !important;
+    box-shadow: 0 4px 18px 0px rgb(0 0 0 / 12%), 0 7px 10px -5px rgb(0 0 0 / 15%);
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1650px) {
+  .card-icon {
+    width: 90px;
+    float: unset !important;
+  }
+
+  .card-category,
+  .card-title {
+    text-align: left !important;
   }
 }
 
