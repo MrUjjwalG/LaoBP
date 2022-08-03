@@ -13985,7 +13985,7 @@ fieldset[disabled] .form-group .form-control {
 }
 
 .nav-item.pfile a {
-  background: #fff !important
+  background: rgb(0 0 0 / 14%) !important
 }
 
 .navbar .notification {
@@ -14016,7 +14016,7 @@ fieldset[disabled] .form-group .form-control {
   font-weight: 400;
   font-size: 12px;
   text-transform: uppercase;
-  border-radius: 3px;
+  border-radius: 10px;
   line-height: 20px;
   margin-left: 5px;
   color: inherit;
@@ -14037,10 +14037,11 @@ fieldset[disabled] .form-group .form-control {
 }
 
 .navbar .collapse .navbar-nav .nav-item .nav-link:not(.btn) .material-icons {
-  margin-top: -3px;
+  margin-top: 0px;
   top: 0px;
   position: relative;
-  margin-right: 3px;
+  margin-right: 0px;
+  padding: 2px;
 }
 
 .navbar .collapse .navbar-nav .nav-item .nav-link .notification {
@@ -15620,8 +15621,9 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
   }
 
   #navbarDropdownProfile {
-    padding: 0px 15px !important;
-    text-align: right;
+    padding: 0px 10px !important;
+    text-align: center;
+    padding-top: 5px !important;
   }
 
   .shopsts {
@@ -18828,10 +18830,7 @@ Copyright (c) 2015 Daniel Eden
     background: #fff
   }
 
-  .navbar.navbar-transparent .navbar-toggler .navbar-toggler-icon {
-    background-color: #fff;
-  }
-
+ 
   #bodyClick {
     height: 100%;
     width: 100%;
@@ -19325,7 +19324,7 @@ Copyright (c) 2015 Daniel Eden
   .navbar-toggler .icon-bar {
     display: block;
     position: relative;
-    background: #555 !important;
+    background: #fff !important;
     width: 24px;
     height: 2px;
     border-radius: 1px;
@@ -19821,17 +19820,12 @@ Copyright (c) 2015 Daniel Eden
     right: 0px;
   }
 
-  .navbar-brand {
-    color: #FFF !important;
-  }
-
   .navbar {
     border: 0;
     border-radius: 3px;
     padding: 0.625rem 0;
     margin-bottom: 20px;
     height: auto !important;
-    background-color: #0D47A1 !important;
     box-shadow: 0 4px 18px 0px rgb(0 0 0 / 12%), 0 7px 10px -5px rgb(0 0 0 / 15%);
   }
 }
@@ -19846,6 +19840,15 @@ Copyright (c) 2015 Daniel Eden
   .card-title {
     text-align: left !important;
   }
+}
+.navbar-brand, .shopsts {
+  color: #FFF !important;
+}
+.navbar{
+  background-color: #0D47A1 !important;
+}
+.navbar.navbar-transparent .navbar-toggler .navbar-toggler-icon {
+  background-color: #fff;
 }
 
 /*# sourceMappingURL=dashboard-free.css.map */
