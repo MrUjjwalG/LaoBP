@@ -18807,23 +18807,18 @@ Copyright (c) 2015 Daniel Eden
     display: none;
   }
 
-  .navbar .dropdown-menu .dropdown-item {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-  }
-
   .navbar .dropdown.show .dropdown-menu,
   .navbar .dropdown .dropdown-menu {
     background-color: transparent;
     border: 0;
-    padding-bottom: 15px;
+    padding-bottom: 0px;
     transition: none;
     -webkit-box-shadow: none;
     box-shadow: none;
     transform: none !important;
     width: auto;
-    margin-bottom: 15px;
-    padding-top: 0;
+    margin-top: 15px;
+    padding-top: 15px;
     animation: none;
     opacity: 1;
     overflow-y: scroll;
