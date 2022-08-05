@@ -8,7 +8,7 @@ if (window.location.href == "https://www.laobp.in/Home/Registration") {
       "body > div > div > div.container > div"
     ).style.marginTop = "10em";
   }
-} else if (window.location.href == "https://www.laobp.in/admin/ItemList") {
+} else if (window.location.href.includes("admin/ItemList")) {
   $("#demo-dt-basic").DataTable({
     searching: true,
     ordering: true,
