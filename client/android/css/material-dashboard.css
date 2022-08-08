@@ -14,20 +14,6 @@
  */
 /*     brand Colors              */
 
-@media only screen and (min-width: 310px) and (max-width: 410px) {
-  body {
-    zoom: 90%;
-  }
-}
-
-/* On screens that are 600px wide or less, the background color is olive */
-@media screen and (max-width: 310px) {
-  body {
-     zoom: 70%;
-  }
-  
-}
-
 .btn-section {
   width: unset !important;
 }
@@ -13862,6 +13848,9 @@ fieldset[disabled] .form-group .form-control {
 .navbar .navbar-wrapper {
   display: inline-flex;
   align-items: center;
+  width: 80vw;
+  margin-right: -40px;
+  overflow: scroll;
 }
 
 .navbar .navbar-brand {
