@@ -45,4 +45,6 @@ document.querySelector(".navbar").style.setProperty("background-color", "#0D47A1
 if(document.querySelector("div.navbar-wrapper > a:nth-child(2) > label")){
  Android.setVendorName(document.querySelector("div.navbar-wrapper > a:nth-child(2) > label").innerText);
 }
-
+if(document.querySelector(".logo-text > span")){
+ Android.setVendorName(document.querySelector(".logo-text > span").innerText);
+ }
